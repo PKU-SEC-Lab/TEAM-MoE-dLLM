@@ -35,7 +35,7 @@ conda env create -f evaluation/environment.yml
 which mirrors SDAR's configuration.
 
 ### Usage
-TBD
+You can choose to directly perform the inference or simultaneously output the information on expert activation and decoding sequence during this period.
 
 Example:
 ```
