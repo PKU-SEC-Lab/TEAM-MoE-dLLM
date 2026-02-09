@@ -22,16 +22,16 @@ git clone https://github.com/PKU-SEC-Lab/TEAM-MoE-dLLM.git
 cd TEAM-MoE-dLLM
 ```
 2.Install conda:
-Follow #Environment Setup in SDAR/evaluation/README.md ([SDAR](https://github.com/JetAstra/SDAR))
-```
-TBD
-```
-2.Install dependencies:
-
 ```
 conda create --name <your_env_name> python=3.10
 conda activate <your_env_name>
 ```
+2.Install dependencies:
+Follow the [Environment Setup guide](https://github.com/JetAstra/SDAR/blob/main/evaluation/README.md) in [SDAR](https://github.com/JetAstra/SDAR) or install dependencies by:
+```
+conda env create -f evaluation/environment.yml
+```
+which is the same as SDAR/evaluation/environment.yml in [SDAR](https://github.com/JetAstra/SDAR).
 
 ### Usage
 TBD
