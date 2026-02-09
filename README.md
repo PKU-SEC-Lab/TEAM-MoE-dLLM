@@ -1,7 +1,7 @@
 # TEAM: Temporal–Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration
 
 <div align="center">
-  <img src="assets/Table1.png" alt="TBD" width="600">
+  <img src="assets/1.png" alt="TBD" width="600">
 </div>
 
 TBD.
