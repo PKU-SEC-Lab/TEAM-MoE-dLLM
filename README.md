@@ -38,6 +38,7 @@ which mirrors SDAR's configuration.
 You can choose to directly perform the inference or simultaneously output the information on expert activation and decoding order during this period.
 
 1.Directly inference:
+Download the SDAR model from Huggingface.
 ```
 cd evaluation/opencompass
 CUDA_VISIBLE_DEVICES=<GPU_ID> python run.py configs/eval_sdar_hf_<Task_Name>.py
@@ -51,6 +52,7 @@ Example:
 ```
 CUDA_VISIBLE_DEVICES=0 python run.py configs/eval_sdar_hf_gsm8k.py
 ```
+Please make sure to replace the model path in the `model_configs` of `eval_sdar_hf_<Task_Name>.py` with the actual path of your own model before inference.
 
 ### Acknowledgements
 This repo is largely based on [SDAR](https://github.com/JetAstra/SDAR). We would like to thank the authors of this for their excellent work and open-source contributions.
