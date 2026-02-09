@@ -35,11 +35,21 @@ conda env create -f evaluation/environment.yml
 which mirrors SDAR's configuration.
 
 ### Usage
-You can choose to directly perform the inference or simultaneously output the information on expert activation and decoding sequence during this period.
+You can choose to directly perform the inference or simultaneously output the information on expert activation and decoding order during this period.
+
+1.Directly inference:
+```
+cd evaluation/opencompass
+CUDA_VISIBLE_DEVICES=<GPU_ID> python run.py configs/eval_sdar_hf_<Task_Name>.py
+```
+Parameter descriptions:
+- `<GPU_ID>`: Choose which GPU to run on
+- `<Task_Name>`: Select the benchmark for evaluation
+  - Options: `gsm8k, math, humaneval, mbpp`
 
 Example:
 ```
-TBD
+CUDA_VISIBLE_DEVICES=0 python run.py configs/eval_sdar_hf_gsm8k.py
 ```
 
 ### Acknowledgements
