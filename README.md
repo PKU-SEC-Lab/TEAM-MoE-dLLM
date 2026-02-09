@@ -57,7 +57,27 @@ CUDA_VISIBLE_DEVICES=0 python run.py configs/eval_sdar_hf_gsm8k.py
 ```
 Please make sure to replace the model path in the `model_configs` of `eval_sdar_hf_<Task_Name>.py` with the actual path of your downloaded model before inference.
 
+2.Inference with relevant information output:
 
+Download the [SDAR-30B-A3B](https://huggingface.co/JetLM/SDAR-30B-A3B-Chat-b32) model from Huggingface.
+
+Replace the `modeling_sdar_moe.py` in the downloaded model with the `modeling_sdar_moe_mark.py` provided by us. 
+```
+cd evaluation/opencompass
+CUDA_VISIBLE_DEVICES=<GPU_ID> python run.py configs/eval_sdar_hf_<Task_Name>_mark.py
+```
+Parameter descriptions:
+- `<GPU_ID>`: Choose which GPU to run on
+- `<Task_Name>`: Select the benchmark for evaluation
+  - Options: `gsm8k, math, humaneval, mbpp`
+
+Example:
+```
+CUDA_VISIBLE_DEVICES=0 python run.py configs/eval_sdar_hf_gsm8k_mark.py
+```
+Please make sure to replace the model path in the `model_configs` of `eval_sdar_hf_<Task_Name>.py` with the actual path of your downloaded model before inference.
+
+Please make sure to replace the relevant paths in the `evaluation\opencompass\opencompass\openicl\icl_inferencer\icl_gen_inferencer.py` as needed.
 
 ### Acknowledgements
 This repo is largely based on [SDAR](https://github.com/JetAstra/SDAR). We would like to thank the authors of this for their excellent work and open-source contributions.
