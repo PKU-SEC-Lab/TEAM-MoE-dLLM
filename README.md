@@ -39,7 +39,7 @@ You can choose to directly perform the inference or simultaneously output the in
 
 1.Directly inference:
 
-
+Download the [SDAR-30B-A3B](https://huggingface.co/JetLM/SDAR-30B-A3B-Chat-b32) model from Hugging face.
 
 Replace the `modeling_sdar_moe.py` in the downloaded model with the `modeling_sdar_moe.py` provided by us. 
 ```
