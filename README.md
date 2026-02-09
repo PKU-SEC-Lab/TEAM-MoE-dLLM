@@ -1,4 +1,4 @@
-# TEAM: Temporal–Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration
+<img width="1533" height="1014" alt="image" src="https://github.com/user-attachments/assets/e3b975e1-a008-428e-8804-6a3cb326208d" /># TEAM: Temporal–Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration
 
 <div align="center">
   <img src="assets/1.png" alt="TBD" width="500">
@@ -34,7 +34,7 @@ TBD
 ```
 
 ### Acknowledgements
-This repo is largely based on [Fast-dLLM](https://github.com/NVlabs/Fast-dLLM). We would also like to thank the authors of [LLaDA](https://github.com/ML-GSAI/LLaDA) and [LLaDA-1.5](https://github.com/ML-GSAI/LLaDA-1.5) for their excellent work and open-source contributions.
+This repo is largely based on [SDAR](https://github.com/JetAstra/SDAR). We would like to thank the authors of this for their excellent work and open-source contributions.
 
 ### Contact
 If you have any questions, please contact us via email lywei25@stu.pku.edu.cn.
