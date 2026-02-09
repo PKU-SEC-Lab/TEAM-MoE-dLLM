@@ -1,7 +1,7 @@
 # TEAM: Temporal–Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration
 
 <div align="center">
-  <img src="assets/1.png" alt="TBD" width="600">
+  <img src="assets/1.png" alt="TBD" width="500">
 </div>
 
 We identify a fundamental mismatch between MoE architectures and dLLM. A large number of experts are activated at each denoising step, while only a small subset of tokens is ultimately accepted, resulting in substantial inference overhead and limiting their deployment in latency-sensitive applications. 
@@ -12,7 +12,7 @@ We propose TEAM, a plug-and-play framework that accelerates MoE dLLMs by enablin
 
 With SDAR 30B-A3B ([SDAR](https://github.com/JetAstra/SDAR)) model, TEAM achieves an average speedup of 1.94× across diverse benchmarks, with a peak speedup of up to 2.2× on the HumanEval benchmark.
 <div align="center">
-  <img src="assets/Table1.png" alt="TBD" width="600">
+  <img src="assets/Table1.png" alt="TBD" width="700">
 </div>
 
 ### Installation
