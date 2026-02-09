@@ -12,7 +12,7 @@ We propose TEAM, a plug-and-play framework that accelerates MoE dLLMs by enablin
 
 With SDAR 30B-A3B ([SDAR](https://github.com/JetAstra/SDAR)) model, TEAM achieves an average speedup of 1.94× across diverse benchmarks, with a peak speedup of up to 2.2× on the HumanEval benchmark.
 <div align="center">
-  <img src="assets/Table1.png" alt="TBD" width="700">
+  <img src="assets/Table1.png" alt="TBD" width="900">
 </div>
 
 ### Installation
