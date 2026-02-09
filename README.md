@@ -18,7 +18,8 @@ With SDAR 30B-A3B ([SDAR](https://github.com/JetAstra/SDAR)) model, TEAM achieve
 ### Installation
 1.Clone the repository:
 ```
-TBD
+git clone https://github.com/PKU-SEC-Lab/TEAM-MoE-dLLM.git
+cd TEAM-MoE-dLLM
 ```
 2.Install dependencies:
 ```
