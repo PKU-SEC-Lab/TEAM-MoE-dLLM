@@ -23,7 +23,8 @@ cd TEAM-MoE-dLLM
 ```
 2.Install dependencies:
 ```
-TBD
+conda create --name <your_env_name> python=3.10
+conda activate <your_env_name>
 ```
 
 ### Usage
