@@ -1,4 +1,4 @@
-<img width="1533" height="1014" alt="image" src="https://github.com/user-attachments/assets/e3b975e1-a008-428e-8804-6a3cb326208d" /># TEAM: Temporal–Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration
+# TEAM: Temporal-Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration
 
 <div align="center">
   <img src="assets/1.png" alt="TBD" width="500">
