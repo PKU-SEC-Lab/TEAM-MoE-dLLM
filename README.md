@@ -21,7 +21,13 @@ With SDAR 30B-A3B ([SDAR](https://github.com/JetAstra/SDAR)) model, TEAM achieve
 git clone https://github.com/PKU-SEC-Lab/TEAM-MoE-dLLM.git
 cd TEAM-MoE-dLLM
 ```
+2.Install conda:
+Follow #Environment Setup in SDAR/evaluation/README.md ([SDAR](https://github.com/JetAstra/SDAR))
+```
+TBD
+```
 2.Install dependencies:
+
 ```
 conda create --name <your_env_name> python=3.10
 conda activate <your_env_name>
