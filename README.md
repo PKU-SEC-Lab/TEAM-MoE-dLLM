@@ -71,6 +71,17 @@ CUDA_VISIBLE_DEVICES=0 python run.py configs/eval_sdar_hf_gsm8k_mark.py
 Please make sure to replace the model path in the `model_configs` of `eval_sdar_hf_<Task_Name>_mark.py` with the actual path of your downloaded model before inference.
 Please make sure to replace the relevant paths in the `evaluation\opencompass\opencompass\openicl\icl_inferencer\icl_gen_inferencer.py` as needed.
 
+### Citation
+If our work assists your research, feel free to give us a star ⭐ or cite us using:
+```
+@article{wei2026team,
+  title={TEAM: Temporal-Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration},
+  author={Wei, Linye and Luo, Zixiang and Tang, Pingzhi and Li, Meng},
+  journal={arXiv preprint arXiv:2602.08404},
+  year={2026}
+}
+```
+
 ### Acknowledgements
 This repo is largely based on [SDAR](https://github.com/JetAstra/SDAR). We would like to thank the authors of this for their excellent work and open-source contributions.
 
